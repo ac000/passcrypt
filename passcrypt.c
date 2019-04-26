@@ -1,7 +1,7 @@
 /*
  * passcrypt.c
  *
- * Copyright (C) 2014		Andrew Clayton <andrew@digital-domain.net>
+ * Copyright (C) 2014, 2019	Andrew Clayton <andrew@digital-domain.net>
  *
  * Released under the GNU General Public License version 2.
  * See COPYING
@@ -11,9 +11,9 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <unistd.h>
 #include <string.h>
 #include <time.h>
+#include <crypt.h>
 
 int main(int argc, char *argv[])
 {
